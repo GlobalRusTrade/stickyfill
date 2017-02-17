@@ -21,20 +21,6 @@
         seppuku();
     }
 
-    //test for native support
-    var prefixes = ['', '-webkit-', '-moz-', '-ms-'],
-        block = document.createElement('div');
-
-    for (var i = prefixes.length - 1; i >= 0; i--) {
-        try {
-            block.style.position = prefixes[i] + 'sticky';
-        }
-        catch(e) {}
-        if (block.style.position != '') {
-            seppuku();
-        }
-    }
-
     updateScrollPos();
 
     //commit seppuku!
