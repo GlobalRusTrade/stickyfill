@@ -1,3 +1,7 @@
+This is fork repository of [stickyfill](https://github.com/wilddeer/stickyfill) originally created by [wilddeer](https://github.com/wilddeer/).
+
+---
+
 #`position: sticky` polyfill
 
 The most accurate sticky polyfill out in the wild.
